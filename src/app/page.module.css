@@ -1,0 +1,259 @@
+.home_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.second_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.image_container {
+  position: relative;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.box {
+  position: absolute;
+  top: 60%;
+  left: 6%;
+  width: 600px;
+  height: 300px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: "Work Sans", sans-serif;
+  padding: 6px;
+  background-color: #4b6bfb;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+.button:hover {
+  background-color: #005bb5;
+}
+
+.heading {
+  font-family: "Work Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.image_and_text {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  gap: 10px;
+}
+
+.round_image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text_container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: gray;
+}
+
+.new_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 150px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.new_box {
+  background: #e8e8ea;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  max-width: 700px;
+  border-radius: 20px;
+}
+
+.new_heading {
+  color: #696a75;
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.new_text {
+  color: #696a75;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.grid_section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.grid_heading {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.grid_item {
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  padding: 15px;
+}
+
+.card_image {
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.card_text {
+  padding-top: 15px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.card_button {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: "Work Sans", sans-serif;
+  padding: 6px;
+  margin: 0 auto;
+  background-color: #4b6bfb0d;
+  color: #4b6bfb;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.view_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0; /* Adjust as needed */
+}
+
+.clear_button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: white;
+  color: grey;
+  text-decoration: none;
+  border: 2px 0px 0px 0px solid grey;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.clear_button:hover {
+  background-color: #f0f0f0;
+}
+
+.second_box_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.second_new_box {
+  background: #e8e8ea;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  max-width: 700px;
+  border-radius: 20px;
+}
+
+.new_heading {
+  color: #696a75;
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.new_text {
+  color: #696a75;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
