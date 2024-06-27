@@ -1,12 +1,17 @@
 import React from "react";
 import styles from "./singlePost.module.css";
+import Link from "next/link";
+import Image from "next/image";
 
 const page = () => {
   return (
     <>
       <section className={styles.main_section}>
         <div className={styles.first_container}>
-          <div className={styles.box}>
+          <div>
+            <h3>hello</h3>
+          </div>
+          {/* <div className={styles.box}>
             <Link href="#" className={styles.button}>
               Technology
             </Link>
@@ -28,8 +33,8 @@ const page = () => {
                 <p className={styles.text}>Jason Francisco </p>
                 <p className={styles.text}>june 24 2024</p>
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
       </section>
     </>
