@@ -1,9 +1,9 @@
 import "./globals.css";
 import React from "react";
-import Navbar from "@/components/navbar/navbar";
-import Footer from "@/components/footer/Footer";
+import Navbar from "@/components/navbar/Navbar";
 import ThemeProvider from "@/providers/ThemeProvider";
 import { ThemeContextProvider } from "@/context/ThemeContext";
+import Footer from "@/components/footer/Footer";
 
 export const metadata = {
   title: "MetaBlog",

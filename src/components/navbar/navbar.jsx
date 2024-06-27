@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import ThemeToggle from "../themeToggle/ThemeToggle";
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <>
       <div className={styles.container}>
@@ -45,4 +45,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
