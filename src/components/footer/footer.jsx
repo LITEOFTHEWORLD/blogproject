@@ -3,10 +3,10 @@ import styles from "./footer.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-const footer = () => {
+const Footer = () => {
   return (
-    <>
-      <footer className={styles.footer}>
+    <footer className={styles.footer}>
+      <div className={styles.footer_container}>
         <div className={styles.footer_section}>
           <h3>About</h3>
           <p>
@@ -86,25 +86,42 @@ const footer = () => {
             </form>
           </div>
         </div>
-        {/* <div className={styles.last_section}>
-          <ul>
-            <li>
-              <Link href="#">Home</Link>
-            </li>
-            <li>
-              <Link href="#">About</Link>
-            </li>
-            <li>
-              <Link href="#">Author</Link>
-            </li>
-            <li>
-              <Link href="#">Achived</Link>
-            </li>
-          </ul>
-        </div> */}
-      </footer>
-    </>
+      </div>
+      <hr />
+      <div className={styles.copyright}>
+        <div>logo</div>
+        <div>
+          <p>Privacy Policy</p>
+          <p>Terms of Use</p>
+          <p>Cookie Policy</p>
+        </div>
+      </div>
+    </footer>
   );
 };
 
-export default footer;
+export default Footer;
+{
+  /* <footer className={styles.footer}>
+
+ 
+  
+ 
+  <div className={styles.last_section}>
+    <ul>
+      <li>
+        <Link href="#">Home</Link>
+      </li>
+      <li>
+        <Link href="#">About</Link>
+      </li>
+      <li>
+        <Link href="#">Author</Link>
+      </li>
+      <li>
+        <Link href="#">Achived</Link>
+      </li>
+    </ul>
+  </div>
+</footer>; */
+}
