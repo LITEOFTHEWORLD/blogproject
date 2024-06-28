@@ -1,36 +1,37 @@
-.main_section {
+/* .main_container {
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
+} */
+.main_container {
+  /* border: 2px red solid; */
 }
-.first_container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
+.first_section {
   max-width: 1200px;
-}
-/* 
-.box {
-  position: absolute;
-  top: 60%;
-  left: 6%;
-  width: 600px;
-  height: 300px;
-  /* background: white; */
-/* border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  position: relative;
+  top: 80%;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   margin-bottom: 20px;
-} */
+  /* border: 2px blue solid; */
+}
 
-/* .button {
+.showna {
+  /* border: 3px red solid; */
+  width: 100%;
+
+  margin: 0;
+  position: relative;
+}
+.first_section h1 {
+  font-size: 36px;
+}
+
+.button {
   font-size: 13px;
   font-weight: 500;
   line-height: 20px;
@@ -41,15 +42,14 @@
   text-decoration: none;
   border: none;
   border-radius: 8px;
-
   transition: background-color 0.3s ease;
   margin-bottom: 10px;
 }
 .button:hover {
   background-color: #005bb5;
-} */
+}
 
-/* .heading {
+.heading {
   font-family: "Work Sans", sans-serif;
   font-size: 36px;
   font-weight: 600;
@@ -62,9 +62,9 @@
   align-items: center;
   padding-top: 12px;
   gap: 10px;
-} */
+}
 
-/* .round_image {
+.round_image {
   border-radius: 50%;
   object-fit: cover;
 }
@@ -73,11 +73,58 @@
   display: flex;
   align-items: center;
   gap: 30px;
-} */
-/* 
+}
+
 .text {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  color: gray;
-}  */
+  color: #696a75;
+}
+
+.writeup p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.writeup h3 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 19px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.box_section {
+  background: #e8e8ea;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  text-align: center;
+  /* margin-right: 204px; */
+  border-radius: 20px;
+  margin-bottom: 60px;
+  font-size: 22px;
+  font-family: "Source Serif Pro";
+}
+
+.new_text p {
+  font-family: "Source Serif Pro";
+
+  font-style: italic;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #181a2a;
+
+  line-height: 24px;
+  margin: 0;
+}
+
+.image_container {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+.second_section {
+  width: 100%;
+}

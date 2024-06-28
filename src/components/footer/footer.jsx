@@ -89,8 +89,8 @@ const Footer = () => {
       </div>
       <hr />
       <div className={styles.copyright}>
-        <div>logo</div>
-        <div>
+        <div className={styles.down_logo}>image</div>
+        <div className={styles.last_footer}>
           <p>Privacy Policy</p>
           <p>Terms of Use</p>
           <p>Cookie Policy</p>
