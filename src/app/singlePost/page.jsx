@@ -13,8 +13,8 @@ const page = () => {
               Technology
             </Link>
             <h1>
-              The impact of Technology on the Worksplace: How Technology is
-              Changing
+              The impact of Technology on the Worksplace:
+              <br /> How Technology is Changing
             </h1>
             <div className={styles.image_and_text}>
               <div className={styles.round_image_container}>
@@ -44,7 +44,7 @@ const page = () => {
                 sizes="(max-width: 768px) 100vw 700px"
               />
             </div>
-            <div className={styles.writeup}>
+            <div className={styles.first_writeup}>
               <p>
                 Traveling is an enriching experience that opens up new horizons,
                 exposes us to different cultures, and creates memories that last
@@ -104,14 +104,84 @@ const page = () => {
             </div>
           </div>
           <section className={styles.box_section}>
-            <div className={styles.new_box}>
-              <p className={styles.new_text}>
+            <div className={styles.first_new_box}>
+              <p className={styles.first_new_text}>
                 “ Traveling can expose you to new environments and potential
                 health risks, so it's crucial to take precautions to stay safe
                 and healthy. ”
               </p>
             </div>
           </section>
+        </div>
+        <div className={styles.third_section}>
+          <div className={styles.third_image}>
+            <Image
+              src="/boxman.svg"
+              alt="image"
+              className={styles.third}
+              fill
+              style={{ objectFit: "contain" }}
+              sizes="(max-width: 768px) 100vw 700px"
+            />
+          </div>
+        </div>
+        <section className={styles.second_box_section}>
+          <div className={styles.second_new_box}>
+            <p className={styles.new_text}>Advertisment</p>
+            <h1 className={styles.new_heading}>You can place ads</h1>
+            <p className={styles.new_text}>750 X 100</p>
+          </div>
+        </section>
+        <div className={styles.second_writeup}>
+          <h3>Pack Lightly and Smartly</h3>
+          <br />
+          <p>
+            Packing can be a daunting task, but with some careful planning and
+            smart choices, you can pack light and efficiently. Start by making a
+            packing list and sticking to it, focusing on versatile and
+            comfortable clothing that can be mixed and matched. Invest in
+            quality luggage and packing organizers to maximize space and
+            minimize wrinkles.
+          </p>
+          <br />
+          <h3>Stay Safe and Healthy</h3>
+          <p>
+            Traveling can expose you to new environments and potential health
+            risks, so it's crucial to take precautions to stay safe and healthy.
+            This includes researching any required vaccinations or medications,
+            staying hydrated, washing your hands frequently, and using sunscreen
+            and insect repellent. It's also essential to keep your valuables
+            safe and secure and to be aware of your surroundings at all times.
+          </p>{" "}
+          <br />
+          <h3>Immerse Yourself in the Local Culture</h3>
+          <p>
+            One of the most rewarding aspects of traveling is immersing yourself
+            in the local culture and customs. This includes trying local
+            cuisine, attending cultural events and festivals, and interacting
+            with locals. Learning a few phrases in the local language can also
+            go a long way in making connections and showing respect.
+          </p>{" "}
+          <br />
+          <h3>Capture Memories</h3>
+          <p>
+            Finally, don't forget to capture memories of your journey. Whether
+            it's through photographs, journaling, or souvenirs, preserving the
+            moments and experiences of your travels can bring joy and nostalgia
+            for years to come. However, it's also essential to be present in the
+            moment and not let technology distract you from the beauty of your
+            surroundings.
+          </p>{" "}
+          <br />
+          <h3>Conclusion</h3>
+          <p>
+            Traveling is an art form that requires a blend of planning,
+            preparation, and spontaneity. By following these tips and tricks,
+            you can make the most of your journey and create memories that last
+            a lifetime. So pack your bags, embrace the adventure, and enjoy the
+            ride
+          </p>{" "}
+          <br />
         </div>
       </section>
     </>
