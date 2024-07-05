@@ -1,14 +1,34 @@
 "use client";
-import styles from "./ThemeToggle.module.css";
+
+import Image from "next/image";
+import styles from "./themeToggle.module.css";
+import { useContext } from "react";
 import { ThemeContext } from "@/context/ThemeContext";
-import React, { useContext } from "react";
-import { CiDark, CiLight, CiSun } from "react-icons/ci";
+
 const ThemeToggle = () => {
   const { toggle, theme } = useContext(ThemeContext);
+
   return (
-    <label className={styles.switch} onClick={toggle}>
-      {theme === "light" ? <CiDark size={"20px"} /> : <CiLight size={"20px"} />}
-    </label>
+    <div
+      className={styles.container}
+      onClick={toggle}
+      style={
+        theme === "dark"
+          ? { backgroundColor: "white" }
+          : { backgroundColor: "#0f172a" }
+      }
+    >
+      <Image src="/moon.svg" alt="" width={14} height={14} />
+      <div
+        className={styles.ball}
+        style={
+          theme === "dark"
+            ? { left: 1, background: "#0f172a" }
+            : { right: 1, background: "white" }
+        }
+      ></div>
+      <Image src="/sun.svg" alt="" width={14} height={14} />
+    </div>
   );
 };
 

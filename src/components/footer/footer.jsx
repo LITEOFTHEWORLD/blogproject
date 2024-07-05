@@ -10,15 +10,15 @@ const Footer = () => {
         <div className={styles.footer_section}>
           <h3>About</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit
-            amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
-            consectetur adipiscing elit
+            Lorem ipsum dolor sit amet, adipiscing elit,Lorem ipsum dolor sit
+            amet, adipiscing elit Lorem ipsum dolor sit amet, adipiscing
+            elitLorem ipsum dolor sit amet, adipiscing elit
           </p>
           <br />
 
           <p>
-            <span>Email:</span>info@example.com
+            <span className={styles.bold_text}>Email</span>
+            :kosuruth100@gmail.com
           </p>
         </div>
         <div className={styles.footer_section}>
@@ -73,7 +73,7 @@ const Footer = () => {
         <div className={styles.footer_section}>
           <div className={styles.newsletter_box}>
             <h3>Weekly Newsletter</h3>
-            <p>Subscribe to our newsletter</p>
+            <p>Get blog articles and offers </p>
             <form className={styles.newsletter_form}>
               <input
                 type="email"
@@ -87,9 +87,26 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr />
+
+      <hr className={styles.footer_line} />
       <div className={styles.copyright}>
-        <div className={styles.down_logo}>image</div>
+        <div className={styles.down_logo}>
+          <img
+            src="/downLogo.svg"
+            alt="Logo"
+            className={styles.logo_image}
+            width={50}
+            height={50}
+          />
+          <div>
+            <p className={styles.logo_text}>
+              Meta<span className={styles.bold_text}>Blog</span>
+            </p>
+            <p className={styles.copyright_text}>
+              © JS Template 2023. All Rights Reserved.
+            </p>
+          </div>
+        </div>
         <div className={styles.last_footer}>
           <p>Privacy Policy</p>
           <p>Terms of Use</p>
@@ -99,29 +116,4 @@ const Footer = () => {
     </footer>
   );
 };
-
 export default Footer;
-{
-  /* <footer className={styles.footer}>
-
- 
-  
- 
-  <div className={styles.last_section}>
-    <ul>
-      <li>
-        <Link href="#">Home</Link>
-      </li>
-      <li>
-        <Link href="#">About</Link>
-      </li>
-      <li>
-        <Link href="#">Author</Link>
-      </li>
-      <li>
-        <Link href="#">Achived</Link>
-      </li>
-    </ul>
-  </div>
-</footer>; */
-}

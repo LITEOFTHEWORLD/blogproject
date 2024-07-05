@@ -27,10 +27,10 @@ const Navbar = () => {
           <Link href="/singlepost" className={styles.link}>
             SinglePost
           </Link>
-          <Link href="/" className={styles.link}>
+          <Link href="/pages" className={styles.link}>
             Pages
           </Link>
-          <Link href="/" className={styles.link}>
+          <Link href="/ contact" className={styles.link}>
             Contact
           </Link>
         </div>

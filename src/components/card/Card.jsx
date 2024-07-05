@@ -80,7 +80,7 @@ const Card = () => {
   return (
     <>
       {imageCards.map((card, index) => (
-        <div key={index} className={styles.grid_item}>
+        <div key={card.id} className={styles.grid_item}>
           <Image
             src={card.src}
             alt={card.alt}

@@ -11,7 +11,7 @@ const page = () => {
         <div className={styles.first_section}>
           <div className={styles.image_section}>
             <h3>Blog</h3>
-            <Link href="#" className={styles.btn_Link}>
+            <Link href="blog" className={styles.btn_Link}>
               Home | Link one
             </Link>
             <Image

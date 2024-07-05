@@ -20,6 +20,22 @@
 
 .profile {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profileImage {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.profile {
+  display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
@@ -30,7 +46,16 @@
   object-fit: cover;
   margin-bottom: 10px;
 }
+.h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
 
+.p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
 .h3 {
   margin: 10px 0;
   font-size: 24px;
@@ -105,4 +130,55 @@
   border-radius: 8px;
   transition: background-color 0.3s ease;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .authorBox {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .profile {
+    margin-bottom: 10px;
+  }
+
+  .profileImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .h3 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+
+  .p {
+    font-size: 16px;
+  }
+
+  .writeup p {
+    font-size: 16px;
+  }
+
+  .grid_container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  .grid_heading {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .card_text {
+    font-size: 20px;
+  }
 }
