@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./blog.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import Card from "@/components/Card/Card";
+import NewCard from "@/components/NewCard/NewCard";
 
 const page = () => {
   return (
@@ -49,7 +49,7 @@ const page = () => {
         </div>
         <section className={styles.grid_section}>
           <div className={styles.grid_container}>
-            <Card />
+            <NewCard />
           </div>
         </section>
         <div className={styles.view_button}>

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
-import Card from "@/components/Card/Card";
+import NewCard from "@/components/NewCard/NewCard";
 
 export default function hell() {
   return (
@@ -54,7 +54,7 @@ export default function hell() {
         <section className={styles.grid_section}>
           <h2 className={styles.grid_heading}>Latest Post</h2>
           <div className={styles.grid_container}>
-            <Card />
+            <NewCard />
           </div>
         </section>
         <div className={styles.view_button}>

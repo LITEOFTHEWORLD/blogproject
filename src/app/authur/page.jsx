@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./authur.module.css";
 import Image from "next/image";
-import Card from "@/components/Card/Card";
+import NewCard from "@/components/NewCard/NewCard";
 
 const page = () => {
   return (
@@ -32,7 +32,7 @@ const page = () => {
       <section className={styles.grid_section}>
         <h2 className={styles.grid_heading}>Latest Post</h2>
         <div className={styles.grid_container}>
-          <Card />
+          <NewCard />
         </div>
       </section>
     </>
