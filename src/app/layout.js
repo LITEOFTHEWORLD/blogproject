@@ -5,6 +5,7 @@ import { ThemeContextProvider } from "@/context/ThemeContext";
 // import Navbar from "@/components/Navbar/Navbar";
 // import Footer from "@/components/Footer/Footer";
 import NewNavbar from "@/components/NewNavbar/NewNavbar";
+import NewFooter from "@/components/NewFooter/NewFooter";
 
 export const metadata = {
   title: "MetaBlog",
@@ -22,6 +23,7 @@ export default function Layout({ children }) {
                 {/* <Navbar /> */}
                 <NewNavbar />
                 {children}
+                <NewFooter />
                 {/* <Footer /> */}
               </div>
             </div>
