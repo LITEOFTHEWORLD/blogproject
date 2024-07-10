@@ -1,19 +1,18 @@
 import React from "react";
-import Head from "next/head";
 import styles from "./Contact.module.css";
 
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <Head>
+      <section>
         <title>Contact Us</title>
         <meta name="description" content="Contact us for more information" />
-      </Head>
+      </section>
       <main className={styles.main}>
         <h1 className={styles.title}>Contact Us</h1>
         <p className={styles.description}>
-          We'd love to hear from you! Please reach out with any questions or
-          comments.
+          We&apos;d love to hear from you! Please reach out with any questions
+          or comments.
         </p>
         <form className={styles.form}>
           <div className={styles.formGroup}>
