@@ -10,12 +10,11 @@ const Navbar = () => {
     <>
       <div className={styles.container}>
         <div className={styles.social}>
-          <Image
-            src="/firstLogo.svg"
-            alt="logo"
-            fill
-            style={{ objectFit: "contain" }}
-          />
+          <div>
+            <p className={styles.logo_text}>
+              Tech<span className={styles.bold_text}>BlackGirl</span>
+            </p>
+          </div>
         </div>
         <div className={styles.links}>
           <Link href="/ " className={styles.link}>
@@ -24,14 +23,12 @@ const Navbar = () => {
           <Link href="/blog" className={styles.link}>
             Blog
           </Link>
-          <Link href="/singlepost" className={styles.link}>
-            SinglePost
+
+          <Link href="/authur" className={styles.link}>
+            authur
           </Link>
-          <Link href="/pages" className={styles.link}>
-            Pages
-          </Link>
-          <Link href="/ contact" className={styles.link}>
-            Contact
+          <Link href="/contact" className={styles.link}>
+            contact
           </Link>
         </div>
         <div class={styles.topNav}>

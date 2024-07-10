@@ -51,41 +51,6 @@ a {
   --adbox: #e8e8ea;
 }
 
-/* #fixMeDetectBox {
-  margin: 0;
-  padding: 0;
-  display: none;
-} */
-
-/* .dark {
-  --bg: #181a2a;
-  --textColor: black;
-  --softBg: white;
-  --linkColor: #ffffff;
-  --linkHoverColor: #cccccc;
-}
-
-.light {
-  --bg: var(--bg);
-  --textColor: black;
-  --softBg: black;
-  --linkColor: black;
-  --linkHoverColor: #0070f3;
-} */
-/* .dark {
-  --bg: #181a2a;
-  --textColor: black;
-  --softBg: white;
- 
-}
-
-.light {
-  --bg: var(--bg);
-  --textColor: black;
-  --softBg: black;
- 
-} */
-
 .container {
   min-height: 100vh;
   background-color: var(--bg);

@@ -20,6 +20,10 @@ const Footer = () => {
             <span className={styles.bold_text}>Email</span>
             :kosuruth100@gmail.com
           </p>
+          <p>
+            <span className={styles.bold_text}>Phone</span>
+            :07085644907
+          </p>
         </div>
         <div className={styles.footer_section}>
           <h3>Quick Links</h3>
@@ -91,16 +95,9 @@ const Footer = () => {
       <hr className={styles.footer_line} />
       <div className={styles.copyright}>
         <div className={styles.down_logo}>
-          <img
-            src="/downLogo.svg"
-            alt="Logo"
-            className={styles.logo_image}
-            width={50}
-            height={50}
-          />
           <div>
             <p className={styles.logo_text}>
-              Meta<span className={styles.bold_text}>Blog</span>
+              Tech<span className={styles.bold_text}>BlackGirl</span>
             </p>
             <p className={styles.copyright_text}>
               © JS Template 2023. All Rights Reserved.

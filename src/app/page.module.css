@@ -107,7 +107,6 @@
 .new_box {
   background: var(--adbox);
 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 10px;
   text-align: center;
   width: 90%;
@@ -235,7 +234,6 @@
 
 .second_new_box {
   background: var(--adbox);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 10px;
   text-align: center;
   width: 90%;

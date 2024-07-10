@@ -196,14 +196,40 @@
   border: none;
   border-radius: 8px;
   transition: background-color 0.3s ease;
+  display: inline-flex;
   margin-bottom: 20px;
+}
+
+.image_and_text {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  gap: 10px;
+}
+
+.round_image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text_container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: gray;
 }
 
 .view_button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 0; /* Adjust as needed */
+  margin: 50px 0;
 }
 
 .clear_button {

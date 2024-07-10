@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./Card.module.css";
 import Link from "next/link";
+import { blogData } from "../../../dummyBlog";
 const imageCards = [
   {
     src: "/first.svg",
@@ -79,20 +80,24 @@ const imageCards = [
 const Card = () => {
   return (
     <>
-      {imageCards.map((card, index) => (
+      {blogData.map((card, index) => (
         <div key={card.id} className={styles.grid_item}>
           <Image
-            src={card.src}
-            alt={card.alt}
+            src={card.image}
+            alt={card?.alt}
             className={styles.card_image}
             width={300}
             height={200}
           />
-          <h3 className={styles.card_title}>{card.title}</h3>
           <Link href="#" className={styles.card_button}>
             Technology
           </Link>
-          <p className={styles.card_text}>{card.description}</p>
+          <div>
+            <Link href={`/blog-post/${card.slug}`} className={styles.card_text}>
+              {card.description}
+            </Link>
+          </div>
+
           <div className={styles.image_and_text}>
             <div className={styles.round_image_container}>
               <Image
@@ -104,8 +109,8 @@ const Card = () => {
               />
             </div>
             <div className={styles.text_container}>
-              <p className={styles.text}>{card.cardText}</p>
-              <p className={styles.text}>June 24 2024</p>
+              <p className={styles.text}>{card.author}</p>
+              <p className={styles.text}>{card.date}</p>
             </div>
           </div>
         </div>
