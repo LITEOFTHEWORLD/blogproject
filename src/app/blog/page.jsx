@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./blog.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import Card from "@/components/CARD/CARD";
+import Card from "@/components/Card/Card";
 
 const page = () => {
   return (
