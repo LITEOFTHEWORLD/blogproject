@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
-import Card from "@/components/card/Card";
+import Card from "@/components/CARD/CARD";
 
 export default function hell() {
   return (

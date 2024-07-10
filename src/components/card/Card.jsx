@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./Card.module.css";
+import styles from "./CARD.module.css";
 import Link from "next/link";
 import { blogData } from "../../../dummyBlog";
 const imageCards = [

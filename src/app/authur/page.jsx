@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./authur.module.css";
 import Image from "next/image";
-import Card from "@/components/card/Card";
+import Card from "@/components/CARD/CARD";
 
 const page = () => {
   return (
