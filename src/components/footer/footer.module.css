@@ -64,7 +64,6 @@
 .newsletter_box {
   background-color: var(--footerCard);
   border-radius: 10px;
-
   padding: 20px;
   text-align: center;
 }
@@ -143,7 +142,6 @@
 .copyright_text {
   font-size: 14px;
   margin-top: 4px;
-
   color: var(--textColor);
 }
 

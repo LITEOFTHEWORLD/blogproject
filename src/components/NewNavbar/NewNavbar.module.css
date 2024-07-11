@@ -9,6 +9,7 @@
   justify-content: space-around;
   height: 100px;
   gap: 20px;
+  position: relative;
 }
 
 .social {
@@ -34,6 +35,7 @@
   justify-content: center;
   gap: 20px;
   font-size: 20px;
+  transition: all 0.3s ease;
 }
 
 .link {
@@ -53,6 +55,12 @@
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 @media (max-width: 900px) {
@@ -75,6 +83,17 @@
     gap: 10px;
     flex-direction: column;
     align-items: center;
+    display: none;
+    width: 100%;
+  }
+
+  .linksOpen {
+    display: flex;
+  }
+
+  .logo_text {
+    text-align: center;
+    font-size: 24px;
   }
 
   .topNav {
@@ -89,5 +108,9 @@
     width: 90%;
     margin: 10px 0;
     font-size: 14px;
+  }
+
+  .hamburger {
+    display: block;
   }
 }

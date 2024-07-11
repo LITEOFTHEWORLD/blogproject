@@ -9,7 +9,7 @@
 }
 
 .authorBox {
-  background-color: #e0e0e0;
+  background-color: var(--adbox);
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -47,7 +47,6 @@
   margin-bottom: 10px;
 }
 .h3 {
-  color: var(--softBg);
   margin: 10px 0;
   font-size: 24px;
 }
